@@ -1,0 +1,17 @@
+name: RangeEconomy
+main: ru.rangemc.economy.Main
+author: alexeylesin
+version: 1.0.0
+api-version: 1.16
+commands:
+ money:
+  aliases: [balance, bal]
+ pay:
+  aliases: [transfer, trans]
+permissions:
+  rangeeconomy.set:
+    default: op
+  rangeeconomy.add:
+    default: op
+  rangeeconomy.top:
+    default: true
